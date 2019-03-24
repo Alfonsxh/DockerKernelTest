@@ -1,0 +1,10 @@
+add_executable(fork_example fork_example.c)
+add_executable(uts1 uts_1.c)
+add_executable(uts2 uts_2.c)
+add_executable(ipc ipc.c)
+add_executable(pid pid.c)
+add_executable(mount mount.c)
+
+link_libraries(cap)
+add_executable(userns_1 userns_1.c)
+add_executable(userns_2 userns_2.c)
